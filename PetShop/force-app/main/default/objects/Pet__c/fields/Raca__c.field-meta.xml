@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raca__c</fullName>
+    <externalId>false</externalId>
+    <label>Raça</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Especie__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vira-lata</fullName>
+                <default>false</default>
+                <label>Vira-lata</label>
+            </value>
+            <value>
+                <fullName>Poodle</fullName>
+                <default>false</default>
+                <label>Poodle</label>
+            </value>
+            <value>
+                <fullName>Siamês</fullName>
+                <default>false</default>
+                <label>Siamês</label>
+            </value>
+            <value>
+                <fullName>Persa</fullName>
+                <default>false</default>
+                <label>Persa</label>
+            </value>
+            <value>
+                <fullName>Pastor-alemão</fullName>
+                <default>false</default>
+                <label>Pastor-alemão</label>
+            </value>
+            <value>
+                <fullName>Buldogue</fullName>
+                <default>false</default>
+                <label>Buldogue</label>
+            </value>
+            <value>
+                <fullName>Labrador retriever</fullName>
+                <default>false</default>
+                <label>Labrador retriever</label>
+            </value>
+            <value>
+                <fullName>Golden retriever</fullName>
+                <default>false</default>
+                <label>Golden retriever</label>
+            </value>
+            <value>
+                <fullName>Beagle</fullName>
+                <default>false</default>
+                <label>Beagle</label>
+            </value>
+            <value>
+                <fullName>Dachshund</fullName>
+                <default>false</default>
+                <label>Dachshund</label>
+            </value>
+            <value>
+                <fullName>Chihuahua</fullName>
+                <default>false</default>
+                <label>Chihuahua</label>
+            </value>
+            <value>
+                <fullName>Husky siberiano</fullName>
+                <default>false</default>
+                <label>Husky siberiano</label>
+            </value>
+            <value>
+                <fullName>Ragdoll</fullName>
+                <default>false</default>
+                <label>Ragdoll</label>
+            </value>
+            <value>
+                <fullName>Gato-de-bengala</fullName>
+                <default>false</default>
+                <label>Gato-de-bengala</label>
+            </value>
+            <value>
+                <fullName>Scottish Fold</fullName>
+                <default>false</default>
+                <label>Scottish Fold</label>
+            </value>
+            <value>
+                <fullName>Azul russo</fullName>
+                <default>false</default>
+                <label>Azul russo</label>
+            </value>
+            <value>
+                <fullName>Gato abissíni</fullName>
+                <default>false</default>
+                <label>Gato abissíni</label>
+            </value>
+            <value>
+                <fullName>Sphynx</fullName>
+                <default>false</default>
+                <label>Sphynx</label>
+            </value>
+            <value>
+                <fullName>Siberiano</fullName>
+                <default>false</default>
+                <label>Siberiano</label>
+            </value>
+            <value>
+                <fullName>Himalaio</fullName>
+                <default>false</default>
+                <label>Himalaio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Vira-lata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Poodle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Pastor-alemão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Buldogue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Labrador retriever</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Golden retriever</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Beagle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Dachshund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Chihuahua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cachorro</controllingFieldValue>
+            <valueName>Husky siberiano</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Siamês</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Persa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Ragdoll</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Gato-de-bengala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Scottish Fold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Azul russo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Gato abissíni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Sphynx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Siberiano</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gato</controllingFieldValue>
+            <valueName>Himalaio</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

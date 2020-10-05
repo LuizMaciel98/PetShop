@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+
+    <types><name>ApexClass</name>
+    </types>
+
+
+    <types><name>ApprovalProcess</name>
+        <members>Adocao__c.AprovacaoAdocao</members>
+    </types>
+
+
+    <types><name>CompactLayout</name>
+        <members>Adocao__c.LayoutCompactoAdocao</members>
+        <members>Contact.LayoutCompactoContato</members>
+        <members>Pet__c.LayoutCompactoPet</members>
+    </types>
+
+
+    <types><name>CustomApplication</name>
+        <members>PetShop</members>
+    </types>
+
+
+    <types><name>CustomField</name>
+        <members>Adocao__c.Status__c</members>
+        <members>Adocao__c.Data__c</members>
+        <members>Adocao__c.Contato__c</members>
+        <members>Adocao__c.Pet__c</members>
+        <members>Contact.Idade__c</members>
+        <members>Pet__c.Especie__c</members>
+        <members>Pet__c.Raca__c</members>
+    </types>
+
+
+    <types><name>CustomObject</name>
+        <members>Adocao__c</members>
+        <members>Pet__c</members>
+    </types>
+
+
+    <types><name>CustomTab</name>
+        <members>Adocao__c</members>
+        <members>Pet__c</members>
+    </types>
+
+
+    <types><name>EmailTemplate</name>
+        <members>unfiled$public/EmailAdocaoIniciada</members>
+        <members>unfiled$public/EmailAdocaoFinalizada</members>
+    </types>
+
+    
+    <types><name>FlexiPage</name>
+        <members>AdocaoPaginaRegistro</members>
+        <members>ContatoPaginaRegistro</members>
+        <members>PetPaginaRegistro</members>
+    </types>
+
+
+    <types><name>Flow</name>
+        <members>Adocao</members>
+    </types>
+
+
+    <types><name>Layout</name>
+        <members>Adocao__c-Layout de Adocao</members>
+        <members>Contact-Layout de Contato</members>
+        <members>Pet__c-Layout de Pet</members>
+    </types>
+
+
+    <types><name>ValidationRule</name>
+        <members>Adocao__c.IsDataAdocaoValid</members>
+    </types>
+    
+    
+    <types><name>WorkflowAlert</name>
+        <members>Adocao__c.AlertaAdocaoIniciada</members>
+        <members>Adocao__c.AlertaAdocaoFinalizada</members>
+    </types>
+
+
+    <types><name>WorkflowFieldUpdate</name>
+        <members>Adocao__c.AdocaoAprovada</members>
+        <members>Adocao__c.AdocaoEmAprovacao</members>
+        <members>Adocao__c.AdocaoReprovada</members>
+    </types>
+
+
+    <version>45.0</version>
+</Package>
