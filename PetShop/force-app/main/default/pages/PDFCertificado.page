@@ -1,0 +1,40 @@
+<apex:page standardController="Pet__c" extensions="CertificadoDoPetExtension" showHeader="false" action="{!loadInfo}" renderAs="pdf">
+  <head>
+    <style>
+      .logoSize {
+        width: 250px !important;
+        height: 250px !important;
+      }
+      .centro {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .titulo {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .textCenter {
+        text-align: center;
+      }
+    </style>
+    <apex:image styleClass="centro logoSize" value="{!URLFOR($Resource.PetShop,'logo.jpg')}"/>
+  </head>
+
+  <body>
+    <div class="textCenter">
+      <div class="titulo">
+        <apex:outputText >
+          O certificado de seu pet está pronto!
+        </apex:outputText>
+      </div>
+      <br/>
+      <apex:outputText >
+        {!Pet__c.Name} teve seu cadastro em nosso sistema e esta a procura de um dono!!
+      </apex:outputText>
+      <br/>
+    </div>
+  </body>
+</apex:page>

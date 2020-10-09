@@ -1,0 +1,2 @@
+<apex:page standardController="Pet__c" extensions="CertificadoDoPetExtension" action="{!attachPDF}" standardStylesheets="false" applyHtmlTag="false" showHeader="false" renderAs="PDF" >    
+</apex:page>

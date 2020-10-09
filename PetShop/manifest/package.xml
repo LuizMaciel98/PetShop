@@ -3,6 +3,15 @@
 
 
     <types><name>ApexClass</name>
+        <members>AniversarioAdocaoSchedule</members>
+        <members>CertificadoDoPetExtension</members>
+        <members>PetPhotosController</members>
+    </types>
+
+
+    <types><name>ApexPage</name>
+        <members>CertificadoDoPet</members>
+        <members>PDFCertificado</members>
     </types>
 
 
@@ -24,9 +33,12 @@
 
 
     <types><name>CustomField</name>
+        <members>Adocao__c.AniversarioAdocaoEsteDia__c</members>
+        <members>Adocao__c.AniversarioAdocaoEsteMes__c</members>
+        <members>Adocao__c.AniversarioAdocao__c</members>
         <members>Adocao__c.Status__c</members>
-        <members>Adocao__c.Data__c</members>
         <members>Adocao__c.Contato__c</members>
+        <members>Adocao__c.Data__c</members>
         <members>Adocao__c.Pet__c</members>
         <members>Contact.Idade__c</members>
         <members>Pet__c.Especie__c</members>
@@ -68,6 +80,23 @@
         <members>Adocao__c-Layout de Adocao</members>
         <members>Contact-Layout de Contato</members>
         <members>Pet__c-Layout de Pet</members>
+    </types>
+    
+    
+    <types><name>LightningComponentBundle</name>
+        <members>ldsUtils</members>
+        <members>petPhotosComponent</members>
+    </types>
+
+    
+    <types><name>StandardValueSet</name>
+        <members>TaskStatus</members>
+        <members>TaskPriority</members>
+    </types>
+
+
+    <types><name>StaticResource</name>
+        <members>PetShop</members>
     </types>
 
 

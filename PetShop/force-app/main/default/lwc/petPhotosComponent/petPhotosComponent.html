@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Imagens do Pet" icon-name="custom:custom1">
+        <div> <!-- class="slds-size_3-of-4" -->
+            <div class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small">
+                <template if:true={urls}>
+                    <lightning-carousel>
+                        <template for:each={urls} for:item="url">
+                            <lightning-carousel-image
+                                key={url}
+                                src={url}
+                                description={description}
+                            ></lightning-carousel-image>
+                        </template>
+                    </lightning-carousel>
+                </template>
+                <template if:false={urls}>
+                    <lightning-icon
+                        icon-name="utility:photo"
+                        size="medium"
+                        class="slds-align_absolute-center"
+                    ></lightning-icon>
+                    <p class="slds-text-color_weak slds-text-align_center">
+                        Não existem fotos do pet em nosso banco de dados.
+                    </p>
+                </template>
+            </div>
+        </div>
+    </lightning-card>
+</template>
